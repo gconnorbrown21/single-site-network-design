@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <style>
+      .title{font:700 30px Arial,Helvetica,sans-serif;fill:#123a70}
+      .sub{font:600 18px Arial,Helvetica,sans-serif;fill:#123a70}
+      .label{font:600 17px Arial,Helvetica,sans-serif;fill:#123a70}
+      .small{font:500 15px Arial,Helvetica,sans-serif;fill:#123a70}
+      .tiny{font:500 13px Arial,Helvetica,sans-serif;fill:#123a70}
+      .outline{fill:#fff;stroke:#1f5fae;stroke-width:4}
+      .zone{fill:#f7faff;stroke:#9bbce6;stroke-width:2;stroke-dasharray:7 5}
+      .outside{fill:#eef7ea;stroke:#6ea65f;stroke-width:2.5}
+      .pc{fill:#3d75c6;stroke:#23599f;stroke-width:2}
+      .office{fill:#63a85b;stroke:#3b7d35;stroke-width:2}
+      .training{fill:#8b69c6;stroke:#6749a7;stroke-width:2}
+      .reg{fill:#3d75c6;stroke:#23599f;stroke-width:2}
+      .sco{fill:#3d75c6;stroke:#23599f;stroke-width:2}
+      .legendbox{fill:#f8fbff;stroke:#a9c3e8;stroke-width:2}
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#ffffff"/>
+  <text x="42" y="48" class="title">Conceptual Retail Site Layout – Endpoint Distribution (Draft v2)</text>
+
+  <path d="M50 80 H1160 V790 H50 Z" class="outline"/>
+  <path d="M1160 80 L1510 430 V930 H1160 Z" class="outside"/>
+  <text x="1265" y="515" class="label">Outdoor / Seasonal Sales Area</text>
+  <text x="1320" y="542" class="small">(outside main sales floor)</text>
+
+  <rect x="68" y="98" width="88" height="165" rx="10" class="zone"/>
+  <text x="79" y="250" class="label">Offices</text>
+  <rect x="166" y="98" width="230" height="92" rx="10" class="zone"/>
+  <text x="235" y="178" class="label">Training</text>
+
+  <rect x="85" y="112" width="44" height="32" rx="7" class="office"/>
+  <rect x="85" y="158" width="44" height="32" rx="7" class="office"/>
+  <rect x="85" y="204" width="44" height="32" rx="7" class="office"/>
+
+  <rect x="184" y="116" width="48" height="34" rx="7" class="training"/>
+  <rect x="245" y="116" width="48" height="34" rx="7" class="training"/>
+  <rect x="306" y="116" width="48" height="34" rx="7" class="training"/>
+
+  <rect x="425" y="110" width="48" height="34" rx="7" class="pc"/>
+  <rect x="980" y="110" width="48" height="34" rx="7" class="pc"/>
+  <rect x="1045" y="110" width="48" height="34" rx="7" class="pc"/>
+  <text x="946" y="170" class="label">Receiving Workstations</text>
+  <text x="938" y="194" class="small">receiving / inventory processing</text>
+
+  <rect x="610" y="280" width="48" height="34" rx="7" class="pc"/>
+  <rect x="675" y="280" width="48" height="34" rx="7" class="pc"/>
+  <rect x="610" y="350" width="48" height="34" rx="7" class="pc"/>
+  <rect x="675" y="350" width="48" height="34" rx="7" class="pc"/>
+  <rect x="210" y="430" width="48" height="34" rx="7" class="pc"/>
+  <rect x="275" y="430" width="48" height="34" rx="7" class="pc"/>
+  <rect x="1030" y="410" width="48" height="34" rx="7" class="pc"/>
+  <text x="603" y="430" class="label">Sales Floor</text>
+
+  <line x1="620" y1="790" x2="805" y2="790" stroke="#ffffff" stroke-width="8"/>
+  <line x1="635" y1="797" x2="790" y2="797" stroke="#1f5fae" stroke-width="3"/>
+  <rect x="665" y="777" width="96" height="24" fill="#d9e1ec"/>
+  <text x="676" y="829" class="label">Main Entrance</text>
+
+  <g class="reg">
+    <polygon points="80,690 68,722 92,722"/><polygon points="80,740 68,772 92,772"/>
+    <polygon points="160,690 148,722 172,722"/><polygon points="160,740 148,772 172,772"/>
+    <polygon points="285,690 273,722 297,722"/><polygon points="285,740 273,772 297,772"/>
+    <polygon points="340,690 328,722 352,722"/><polygon points="340,740 328,772 352,772"/>
+  </g>
+  <text x="108" y="760" class="small">Manned POS / Registers</text>
+
+  <g class="sco">
+    <circle cx="455" cy="712" r="14"/><circle cx="505" cy="712" r="14"/><circle cx="555" cy="712" r="14"/>
+    <circle cx="605" cy="712" r="14"/><circle cx="655" cy="712" r="14"/><circle cx="705" cy="712" r="14"/>
+    <circle cx="455" cy="755" r="14"/>
+  </g>
+  <text x="510" y="765" class="small">Self-Checkout</text>
+
+  <g class="reg">
+    <polygon points="905,710 893,742 917,742"/><polygon points="955,710 943,742 967,742"/>
+    <polygon points="1005,710 993,742 1017,742"/><polygon points="1055,710 1043,742 1067,742"/>
+    <polygon points="1105,710 1093,742 1117,742"/>
+  </g>
+  <text x="925" y="772" class="small">Checkout Registers</text>
+
+  <text x="1285" y="770" class="label">Outside Registers</text>
+  <g class="reg">
+    <polygon points="1320,800 1308,832 1332,832"/><polygon points="1385,800 1373,832 1397,832"/>
+    <polygon points="1320,850 1308,882 1332,882"/><polygon points="1385,850 1373,882 1397,882"/>
+  </g>
+
+  <rect x="1225" y="92" width="325" height="255" rx="12" class="legendbox"/>
+  <text x="1250" y="126" class="sub">Legend</text>
+  <polygon points="1267,152 1255,184 1279,184" class="reg"/>
+  <text x="1300" y="176" class="small">Manned POS / Register</text>
+  <circle cx="1267" cy="214" r="14" class="sco"/>
+  <text x="1300" y="220" class="small">Self-Checkout Station</text>
+  <rect x="1245" y="243" width="44" height="30" rx="7" class="pc"/>
+  <text x="1300" y="265" class="small">PC Workstation</text>
+  <rect x="1245" y="286" width="44" height="30" rx="7" class="office"/>
+  <text x="1300" y="308" class="small">Office Workstation</text>
+  <rect x="1245" y="329" width="44" height="30" rx="7" class="training"/>
+  <text x="1300" y="351" class="small">Training Station</text>
+
+  <text x="50" y="865" class="small">Approximate Site Size: ~150,000 sq. ft. (approx. 500 ft × 300 ft)</text>
+  <text x="50" y="892" class="small">Conceptual diagram – not to scale.</text>
+  <text x="50" y="919" class="small">Built as a portfolio exercise for single-site network infrastructure planning.</text>
+  <text x="1400" y="956" class="tiny">v2.1 | 2026-09-16</text>
+</svg>
